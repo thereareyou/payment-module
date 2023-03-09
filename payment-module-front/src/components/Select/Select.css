@@ -1,0 +1,40 @@
+.select {
+    display: block;
+    width: 100%;
+}
+
+.select__selector {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4px 0px 12px;
+}
+
+.select__selector-content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--color-control-font);
+    line-height: 16px;
+    flex: 1;
+}
+
+.select__selector-control-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.button__icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+}
+

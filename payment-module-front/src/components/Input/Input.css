@@ -1,0 +1,40 @@
+.input {
+    display: block;
+    width: 100%;
+}
+
+
+.label {
+    color: var(--color-secondary500);
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 14px;
+}
+
+.container {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-container-border);
+}
+
+.input__content {
+    display: flex;
+    padding: 0px 12px;
+    flex: 1;
+}
+
+.input__control {
+    border: none;
+    width: 100%;
+    outline: 0;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--color-control-font);
+    font-size: 14px;
+    line-height: 16px;
+}
